@@ -1,0 +1,2 @@
+(()=>{"use strict";var t;(t=new(function(){function t(t){this.radius=t.radiusValue,this.color=t.colorValue}return t.prototype.getRadius=function(){console.log(this.radius,this.color)},t.prototype.getArea=function(){var t=this.radius*Math.PI*this.radius;console.log(t.toFixed(2))},t.prototype.getCircumference=function(){var t=2*Math.PI*this.radius;console.log(t.toFixed(2))},t}())({radiusValue:21,colorValue:"red"})).getArea(),t.getCircumference(),t.getRadius()})();
+//# sourceMappingURL=index.js.map
